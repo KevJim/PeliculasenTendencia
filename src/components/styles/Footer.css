@@ -1,0 +1,19 @@
+.Footer a {
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-contraste);
+  text-decoration: none;
+  margin-top: 30px;
+}
+.Footer--title {
+  margin: 0 auto;
+  font-size: 2.5rem;
+  color: var(--color-claro);
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 0.5rem;
+}

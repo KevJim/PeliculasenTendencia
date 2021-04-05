@@ -1,0 +1,51 @@
+.Movie-inner {
+  width: 100%;
+  height: auto;
+  color: azure;
+}
+
+.Movie-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: bolder;
+  width: 100%;
+}
+
+.Movies-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.6rem;
+  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.Movie-card img {
+  width: 80%;
+  height: auto;
+}
+
+.Movie-card h2 {
+  background-color: var(--color-contraste);
+  padding: 5px;
+  width: 80%;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.Movies-card h3 {
+  margin: 5px;
+  background-color: var(--color-contraste);
+  padding: 5px;
+}
+
+.Movies-card span {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 2.5rem;
+}

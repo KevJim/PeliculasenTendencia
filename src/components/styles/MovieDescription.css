@@ -49,3 +49,29 @@
   margin-bottom: 10px;
   line-height: 2.5rem;
 }
+
+@media screen and (min-width: 768px) {
+  .Movie-card img {
+    width: auto;
+    height: 500px;
+  }
+
+  .Movies-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.6rem;
+    text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .Movie-card h2 {
+    background-color: var(--color-contraste);
+    padding: 5px;
+    width: 43%;
+    font-size: 2.2rem;
+    text-align: center;
+  }
+}

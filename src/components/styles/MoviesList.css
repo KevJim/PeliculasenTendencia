@@ -5,6 +5,27 @@
   grid-template-columns: 1fr;
 }
 
+@media screen and (min-width: 425px) {
+  .movies-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .movies-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .Movie-item img {
+    height: 500px;
+  }
+}
+
 .Movie-item {
   width: 95%;
   height: auto;

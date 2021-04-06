@@ -1,4 +1,4 @@
-.Footer a {
+.Footer {
   width: 100%;
   height: 70px;
   margin: 0 auto;
@@ -9,11 +9,38 @@
   text-decoration: none;
   margin-top: 30px;
 }
-.Footer--title {
+
+.Footer-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 15px;
+}
+
+.footer--logo {
+  width: 30px;
+  height: 30px;
   margin: 0 auto;
-  font-size: 2.5rem;
-  color: var(--color-claro);
-  font-weight: bolder;
+}
+
+.footer-social-github {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  letter-spacing: 0.5rem;
+  margin-right: 15px;
+}
+
+.footer-social {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-social span,
+.footer-social-github span {
+  color: var(--color-claro);
+  margin-top: 5px;
+  font-size: 1.6rem;
 }
